@@ -13,6 +13,8 @@
 		A715EAD41EF0725000DC12A4 /* BikeCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A715EAD21EF0725000DC12A4 /* BikeCollector.xcdatamodeld */; };
 		A715EAD61EF0725000DC12A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A715EAD51EF0725000DC12A4 /* Assets.xcassets */; };
 		A715EAD91EF0725000DC12A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A715EAD71EF0725000DC12A4 /* LaunchScreen.storyboard */; };
+		A715EAE11EF159A200DC12A4 /* tulips-2048324_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A715EAE01EF159A200DC12A4 /* tulips-2048324_1280.jpg */; };
+		A715EAE31EF159F700DC12A4 /* BikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A715EAE21EF159F700DC12A4 /* BikeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A715EAD51EF0725000DC12A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A715EAD81EF0725000DC12A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A715EADA1EF0725000DC12A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A715EAE01EF159A200DC12A4 /* tulips-2048324_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tulips-2048324_1280.jpg"; sourceTree = "<group>"; };
+		A715EAE21EF159F700DC12A4 /* BikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		A715EACA1EF0725000DC12A4 /* BikeCollector */ = {
 			isa = PBXGroup;
 			children = (
+				A715EAE01EF159A200DC12A4 /* tulips-2048324_1280.jpg */,
 				A715EACB1EF0725000DC12A4 /* AppDelegate.swift */,
 				A715EACD1EF0725000DC12A4 /* ViewController.swift */,
+				A715EAE21EF159F700DC12A4 /* BikeViewController.swift */,
 				A715EACF1EF0725000DC12A4 /* Main.storyboard */,
 				A715EAD51EF0725000DC12A4 /* Assets.xcassets */,
 				A715EAD71EF0725000DC12A4 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A715EAD91EF0725000DC12A4 /* LaunchScreen.storyboard in Resources */,
+				A715EAE11EF159A200DC12A4 /* tulips-2048324_1280.jpg in Resources */,
 				A715EAD61EF0725000DC12A4 /* Assets.xcassets in Resources */,
 				A715EAD11EF0725000DC12A4 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A715EACE1EF0725000DC12A4 /* ViewController.swift in Sources */,
+				A715EAE31EF159F700DC12A4 /* BikeViewController.swift in Sources */,
 				A715EACC1EF0725000DC12A4 /* AppDelegate.swift in Sources */,
 				A715EAD41EF0725000DC12A4 /* BikeCollector.xcdatamodeld in Sources */,
 			);
